@@ -2,6 +2,7 @@
 
 ## My contacts:
 telegram: kenwoood
+
 e-mail: panchenko.gleb@vk.com
 
 ### About me:
@@ -16,13 +17,17 @@ As such, there is no experience in development, I started literally from scratch
 
 #### Skills
 HTML
+
 CSS (bootstrap)
+
 Git\Github
 
 ##### Education
 Khabarovsk State University of Economics and Law
+
 specialty: Management
 
 ###### Languages:
 Russian: Native
+
 English: A1 (A2 soon)
