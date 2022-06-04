@@ -23,3 +23,6 @@ Git\Github
 Khabarovsk State University of Economics and Law
 specialty: Management
 
+###### Languages:
+Russian: Native
+English: A1 (A2 soon)
