@@ -1,0 +1,181 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #db7705;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  min-height: 50px;
+}
+
+.header {
+  background-color: indigo;
+}
+
+header {
+  display: block;
+}
+nav {
+  display: block;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+  transition: 0.3s;
+  color: #db7705;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.section {
+  width: calc(50% - 20px);
+  padding: 10px;
+  padding-bottom: 35px;
+  border-bottom: 1px solid #672f2f;
+}
+
+.section-profile {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 50px 30px 35px;
+  border-bottom: 15px solid color#0a0601;
+}
+
+.section-title {
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #000301;
+}
+
+.main-title {
+  position: relative;
+  padding: 0;
+  margin-bottom: 0px;
+  color: #f50909;
+  font-size: 32px;
+  font-weight: 400;
+  letter-spacing: 10px;
+  line-height: 50px;
+  word-spacing: 3px;
+}
+
+.section-subtitle {
+  margin-top: 0;
+  color: #fa0707;
+  line-height: 50px;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+.section-profile-logo {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 1px 4px rgb(0 0 0 / 60%);
+  filter: grayscale(0.2) brightness(1.05);
+  transition: 0.3s;
+}
+
+.section-item {
+  position: relative;
+  padding-left: 30px;
+}
+
+.section-item::before {
+  position: absolute;
+  top: 8px;
+  left: 0px;
+  width: 10px;
+  height: 10px;
+  border: 1px solid #829985;
+  border-radius: 50%;
+}
+
+.section-profile-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.link {
+  text-decoration: none;
+  color: #f0ec01;
+  transition: color 0.5s;
+}
+
+.link:hover {
+  color: #d7ee0c;
+}
+
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+}
+
+.footer {
+  background-color: indigo;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  color: #db7705;
+}
+
+.github::after {
+  color: #db7705;
+  text-decoration: none;
+  line-height: 45px;
+}
+
+.rss {
+  width: 121px;
+  height: 40px;
+  background-image: url(./assets/svg/rss.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a:-webkit-any-link {
+  cursor: pointer;
+  text-decoration: underline;
+}
